@@ -1,7 +1,9 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TargetFramework>net5.0</TargetFramework>
+    <!-- Set the CheckEolTargetFramework property to false to fix the warning -->
+    <!--<CheckEolTargetFramework>false</CheckEolTargetFramework>-->  
   </PropertyGroup>
 
   <ItemGroup>
