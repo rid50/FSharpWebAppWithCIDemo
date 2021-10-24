@@ -1,8 +1,5 @@
-<Project>
+<Project Sdk="Microsoft.NET.Sdk">
 
-  <!-- Implicit top import -->
-  <Import Project="Sdk.props" Sdk="Microsoft.NET.Sdk" />
-  
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
 
@@ -32,6 +29,4 @@
     <PackageReference Update="FSharp.Core" Version="6.0.0" />
   </ItemGroup>
 
-  <!-- Implicit bottom import -->
-  <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
 </Project>
